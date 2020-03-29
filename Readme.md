@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Пичугин](https://up.htmlacademy.ru/adaptive/19/user/1239995).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Михайлов](https://up.htmlacademy.ru/adaptive/19/user/327277).
 
 ---
 
