@@ -2,19 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=320px">
     <title>HTML Academy: Пинк</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <header class="page-header">
       <a class="page-header__logo">
-        <img class="page-header_logo-image" src="https://via.placeholder.com/75x22" alt="Логотип Pink" width="75" height="22">
+      <img class="page-header_logo-image" src="https://via.placeholder.com/75x22" alt="Логотип Pink" width="75" height="22">
       </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle">Открыть меню</button>
-        <button class="main-nav__close">Закрыть меню</button>
-        <ul class="main-nav__list site-list">
+      <nav class="site-nav">
+        <button class="site-nav__toggle">Открыть меню</button>
+        <ul class="site-nav__list site-list">
           <li class="site-list__item site-list__item--active">
             <a href="index.html">Главная</a>
           </li>
@@ -22,7 +20,7 @@
             <a href="photo.html">Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="#">Конкурс</a>
+            <span>Конкурс</span>
           </li>
           <li class="site-list__item">
             <a href="#">HTML Academy</a>
@@ -30,7 +28,6 @@
         </ul>
       </nav>
     </header>
-
     <main class="page-form contest">
       <h1 class="visually-hidden">
         Конкурс. Форма обратной связи
@@ -42,39 +39,45 @@
         <img class="contest__background" src="https://via.placeholder.com/320x462" alt="Фон с изображением города в синих тонах" width="320" height="462" >
       </section>
     </main>
-
     <footer class="page-footer">
       <div class="page-footer__logo">
         <a href="#">
-          <img src="https://via.placeholder.com/147x40" alt="Pink.Логотип" width="147" height="40">
+        <img src="https://via.placeholder.com/147x40" alt="Pink.Логотип" width="147" height="40">
         </a>
       </div>
       <div class="page-footer__social footer-social">
         <ul class="footer-social__list">
           <li class="footer-social__item">
             <a class="footer-social__link" href="#">
-              <svg class="footer-social__twitter"></svg>
+              <svg class="footer-social__twitter">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
             </a>
           </li>
           <li class="footer-social__item">
             <a class="footer-social__link" href="#">
-              <svg class="footer-social__facebook"></svg>
+              <svg class="footer-social__facebook">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
             </a>
           </li>
           <li class="footer-social__item">
             <a class="footer-social__link" href="#">
-              <svg class="footer-social__youtube"></svg>
+              <svg class="footer-social__youtube">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
             </a>
           </li>
         </ul>
       </div>
       <div class="page-footer__copyright footer-copyright">
-        <p class="footer-copyright__description">Разработано</p>
         <a class="footer-copyright__link" href="https://up.htmlacademy.ru/adaptive/19">
-          <svg></svg>
+          <p class="footer-copyright__description">Разработано</p>
+          <svg>
+            <rect width="60px" height="60px" fill="pink"/>
+          </svg>
         </a>
       </div>
     </footer>
-
   </body>
 </html>
