@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320px">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+      <img class="page-header_logo-image" src="https://via.placeholder.com/75x22" alt="Логотип Pink" width="75" height="22">
+      </a>
+      <nav class="site-nav">
+        <button class="site-nav__toggle">Открыть меню</button>
+        <ul class="site-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <span>Конкурс</span>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-form contest">
+      <h1 class="visually-hidden">
+        Конкурс. Форма обратной связи
+      </h1>
+      <section class="contest__hero">
+        <h2 class="contest__title">
+          Конкурс на самое безбашенное путешествие с Пинк
+        </h2>
+        <img class="contest__background" src="https://via.placeholder.com/320x462" alt="Фон с изображением города в синих тонах" width="320" height="462" >
+      </section>
+
+      <section class="share-story">
+        <h2 class="visually-hidden">Поделитесь своей историей</h2>
+        <p class="share-story__description">
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
+        </p>
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset class="share-story__user user">
+            <ul class="user__list">
+              <li class="user__item">
+                <label class="user__surname-label">Фамилия
+                  <input type="text" class="user__surname" placeholder="Укажите фамилию*" name="surname">
+                </label>
+              </li>
+              <li class="user__item">
+                <label class="user__name-label">Имя
+                  <input type="text" class="user__name" placeholder="Введите ваше имя*" name="name">
+                </label>
+              </li>
+              <li class="user__item">
+                <label class="user__middlename-label">Отчество
+                  <input type="text" class="user__middlename" placeholder="Ну и отчество тоже" name="middlename">
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="share-story__achievements achievements">
+            <legend class="achievements__legend">
+              Ваши безбашенные
+              достижения в путешествии
+            </legend>
+            <ul class="achievements__list">
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox" checked>
+                   Сделал селфи с акулой
+                </label>
+              </li>
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox" checked>
+                  Обгорел на пляже
+                </label>
+              </li>
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox">
+                  Видел Чака Норриса
+                </label>
+              </li>
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox">
+                  Накупил сувениров
+                </label>
+              </li>
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox" checked>
+                  Удержал башню
+                </label>
+              </li>
+              <li class="achievements__item">
+                <label>
+                  <input type="checkbox">
+                  Разгромил отель
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="share-story__contacts user-contact">
+            <ul class="user-contact__list">
+              <li class="user-contact__item">
+                <label class="user-contact__label">
+                  Номер телефона
+                  <input class="user-contact__tel" type="tel" placeholder="Номер, пожалуйста">
+                </label>
+              </li>
+              <li class="user-contact__item">
+                <label class="user-contact__label">
+                  Адрес почты
+                  <input class="user-contact__mail" type="email" placeholder="Введите почту*">
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="share-story__os user-os">
+            <legend class="user-os__legend">
+              С каким приложением
+              путешествовали?
+            </legend>
+            <ul class="user-os__list">
+              <li class="user-os__item">
+                <label class="user-os__label">
+                  <input class="user-os__radio" type="radio" name="os">
+                  Pink для iOS
+                </label>
+              </li>
+              <li class="user-os__item">
+                <label class="user-os__label">
+                  <input class="user-os__radio" type="radio" name="os">
+                  Pink на Android
+                </label>
+              </li>
+              <li class="user-os__item">
+                <label class="user-os__label">
+                  <input class="user-os__radio" type="radio" name="os">
+                  Windows Phone
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="share-story__review user-review">
+            <legend class="user-review__legend">
+              Опишите свои эмоции
+            </legend>
+            <input class="user-review__text" type="text" placeholder="Можно прям в красках, не стесняясь в выражениях">
+          </fieldset>
+          <button class="share-story__submit" type="submit">Отправить форму</button>
+          <p class="share-story__description"><span class="share-story__description--star">*</span> — обязательные поля</p>
+        </form>
+
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__logo">
+        <a href="#">
+        <img src="https://via.placeholder.com/147x40" alt="Pink.Логотип" width="147" height="40">
+        </a>
+      </div>
+      <div class="page-footer__social footer-social">
+        <ul class="footer-social__list">
+          <li class="footer-social__item">
+            <a class="footer-social__link" href="#">
+              <svg class="footer-social__twitter">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a class="footer-social__link" href="#">
+              <svg class="footer-social__facebook">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a class="footer-social__link" href="#">
+              <svg class="footer-social__youtube">
+                <rect width="50px" height="50px" fill="pink"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright footer-copyright">
+        <a class="footer-copyright__link" href="https://up.htmlacademy.ru/adaptive/19">
+          <p class="footer-copyright__description">Разработано</p>
+          <svg>
+            <rect width="60px" height="60px" fill="pink"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
