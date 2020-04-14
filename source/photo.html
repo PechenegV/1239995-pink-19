@@ -179,7 +179,50 @@
           </li>
         </ul>
       </section>
+<<<<<<< HEAD:source/photo.html
+=======
+
+      <section class="editor">
+        <p class="editor__description">
+          Затмите их всех!
+          Выкладывайте все, что накопилось в телефоне!
+        </p>
+        <div class="editor__wrapper">
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <!-- <input type="file"> -->
+            <!-- не понимаю как сделать загрузку картинки и последующую ее обработку, это ведь input? -->
+            <img src="https://via.placeholder.com/374x280" alt="Ваш снимок" width="280" height="374">
+            <button type="button" class="editor__button editor__button--cut">1
+            </button>
+            <button type="button" class="editor__button editor__button--fill">2
+            </button>
+            <button type="button" class="editor__button editor__button--monochrome">3
+            </button>
+            <!-- если есть шкала, значит она должна что-то регулировать? значит какие-то значения должны меняться?
+              Но они скрыты и мы видим только визуальные изменения картинки? Это тоже должны быть инпуты?-->
+            <input type="number" class="editor__value editor__value--cut" name="cut" min="0" max="100">
+            <div class="editor__range editor__range--cut">
+              <div class="editor__scale"></div>
+              <div class="editor__range-toggle"></div>
+            </div>
+            <input type="number" class="editor__value editor__value--fill" name="fill" min="0" max="100">
+            <div class="editor__range editor__range--fill">
+              <div class="editor__scale"></div>
+              <div class="editor__range-toggle"></div>
+            </div>
+            <input type="number" class="editor__value editor__value--monochrome" name="monochrome" min="0" max="100">
+            <div class="editor__range editor__range--monochrome">
+              <div class="editor__scale"></div>
+              <div class="editor__range-toggle"></div>
+            </div>
+            <button type="submit" class="editor__post">Запостить</button>
+            <button type="button" class="editor__cancel">Отмена</button>
+          </form>
+        </div>
+      </section>
+>>>>>>> parent of 6b62bda... Исправил недочеты. по блоку тарифы есть вопросы:photo.html
     </main>
+
     <footer class="page-footer">
       <div class="page-footer__logo">
         <a href="#">
