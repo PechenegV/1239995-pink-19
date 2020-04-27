@@ -1,0 +1,27 @@
+.user-review {
+  background-color: #ffffff;
+  border: none;
+}
+
+.user-review__legend {
+  font-family: 'opensans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.user-review__text {
+  border: 2px solid #e5e5e5;
+  min-height: 200px;
+  width: 280px;
+}
+
+.user-review__text {
+  font-family: 'opensans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #283645;
+}

@@ -1,0 +1,44 @@
+@import 'source/sass/achievements';
+@import 'source/sass/contacts';
+@import 'source/sass/contest';
+@import 'source/sass/download';
+@import 'source/sass/editor';
+@import 'source/sass/features';
+@import 'source/sass/footer-copyright';
+@import 'source/sass/footer-social';
+@import 'source/sass/offer';
+@import 'source/sass/page-footer';
+@import 'source/sass/page-header';
+@import 'source/sass/page-main';
+@import 'source/sass/photo';
+@import 'source/sass/reviews';
+@import 'source/sass/share-story';
+@import 'source/sass/site-list';
+@import 'source/sass/site-nav';
+@import 'source/sass/tariff-plan';
+@import 'source/sass/user-contact';
+@import 'source/sass/user-os';
+@import 'source/sass/user-review';
+@import 'source/sass/user';
+@import 'source/sass/users-photo';
+
+@font-face {
+  font-family: 'opensans';
+  src: url(../fonts/opensans.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensansbold';
+  src: url(../fonts/opensansbold.woff.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url(../fonts/opensanslight.woff);
+  font-weight: 300;
+  font-style: normal;
+}

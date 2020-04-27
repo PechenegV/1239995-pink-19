@@ -1,0 +1,26 @@
+.tariff-plan {
+  background-color: #f2f2f2;
+}
+
+.tariff-plan__title {
+  background-color: #283645;
+}
+
+.tariff-plan__options {
+  color: #283645;
+  list-style: none;
+}
+.tariff-plan__name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tariff-plan__cost,
+.tariff-plan__currency  {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
