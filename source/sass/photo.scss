@@ -1,22 +1,23 @@
 .photo {
-  font-family: 'opensans';
+  font-family: "opensans", sans-serif;
   background-color: #ffffff;
   color: #283645;
   font-size: 14px;
   font-weight: normal;
 }
+
 .photo__hero {
-  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-image: url"(../img/bg-back-mobile@1x.jpg)";
   background-repeat: no-repeat;
   background-size: 320px 462px;
   background-color: #283645;
   min-height: 462px;
 
   h2 {
-  font-family: 'opensans';
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 300;
+    font-family: "opensans", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
   }
 }

@@ -1,5 +1,5 @@
 .contest__hero {
-  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-image: url"(../img/bg-back-mobile@1x.jpg)";
   background-repeat: no-repeat;
   background-size: 320px 462px;
   background-color: #283645;
@@ -8,7 +8,7 @@
 
 .contest__title {
   font-size: 24px;
-  font-family: 'opensans';
+  font-family: "opensans", sans-serif;
   font-weight: 300;
   color: #ffffff;
   margin: 0;
